@@ -13,8 +13,7 @@ public class AccessCounterServiceImpl implements AccessCounterService{
     @Override
     public String returnAccessCount() {
         Integer accessCount = Integer.valueOf(redisTemplate.opsForValue().get("access_count")) + 1;
-        redisTemplate.opsForValue().set("access_count",Integer.toString(accessCount));
-
-        return redisTemplate.opsForValue().get("access_count");
+        redisTemplate.opsForValue().set("access_count", Integer.toString(accessCount));
+        return Integer.toString(accessCount);
     }
 }

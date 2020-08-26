@@ -8,7 +8,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54c0a9d6-5877-4aa9-ba51-12251f0b22a7" name="Default Changelist" comment="" />
+    <list default="true" id="54c0a9d6-5877-4aa9-ba51-12251f0b22a7" name="Default Changelist" comment="redisを使用し簡単なアクセスカウンターを作成">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/studyaccesscounterredis/cache/CacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/studyaccesscounterredis/cache/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/studyaccesscounterredis/service/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/studyaccesscounterredis/service/CacheServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/studyaccesscounterredis/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/studyaccesscounterredis/RedisCacheTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/studyaccesscounterredis/StudyAccessCounterRedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/studyaccesscounterredis/StudyAccessCounterRedisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/studyaccesscounterredis/controller/AccessCounterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/studyaccesscounterredis/controller/AccessCounterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/studyaccesscounterredis/service/AccessCounterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/studyaccesscounterredis/service/AccessCounterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/studyaccesscounterredis/service/AccessCounterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/studyaccesscounterredis/service/AccessCounterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-access-counter-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study-access-counter-redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/studyaccesscounterredis/StudyAccessCounterRedisApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/studyaccesscounterredis/StudyAccessCounterRedisApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/studyaccesscounterredis/controller/AccessCounterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/studyaccesscounterredis/controller/AccessCounterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/studyaccesscounterredis/service/AccessCounterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/studyaccesscounterredis/service/AccessCounterServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,13 +40,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="HTML File" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -40,6 +63,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -54,7 +78,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -73,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisCacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study-access-counter-redis" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +106,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.studyaccesscounterredis" />
-      <option name="MAIN_CLASS_NAME" value="com.example.studyaccesscounterredis.RedisTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.studyaccesscounterredis.RedisCacheTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisCacheTest.first" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-access-counter-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.studyaccesscounterredis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.studyaccesscounterredis" />
+      <option name="MAIN_CLASS_NAME" value="com.example.studyaccesscounterredis.RedisCacheTest" />
+      <option name="METHOD_NAME" value="first" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisCacheTest.second" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-access-counter-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.studyaccesscounterredis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.studyaccesscounterredis" />
+      <option name="MAIN_CLASS_NAME" value="com.example.studyaccesscounterredis.RedisCacheTest" />
+      <option name="METHOD_NAME" value="second" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisCacheTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-access-counter-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.studyaccesscounterredis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.studyaccesscounterredis" />
+      <option name="MAIN_CLASS_NAME" value="com.example.studyaccesscounterredis.RedisCacheTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,8 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedisCacheTest" />
+        <item itemvalue="JUnit.RedisCacheTest.test" />
+        <item itemvalue="JUnit.RedisCacheTest.first" />
+        <item itemvalue="JUnit.RedisCacheTest.second" />
         <item itemvalue="JUnit.RedisTest.basic" />
-        <item itemvalue="JUnit.RedisTest" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +201,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598317060074</updated>
-      <workItem from="1598317062955" duration="10369000" />
+      <workItem from="1598317062955" duration="17667000" />
+      <workItem from="1598399465796" duration="299000" />
+      <workItem from="1598399781521" duration="18758000" />
     </task>
     <servers />
   </component>
@@ -168,57 +245,66 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598318557638">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="312" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598318557638" />
-    <state x="525" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1598324212915">
+    <state x="525" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1598409414468">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="525" y="163" key="#com.intellij.ide.util.MemberChooser/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598324212915" />
+    <state x="525" y="163" key="#com.intellij.ide.util.MemberChooser/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598409414468" />
     <state x="450" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598323256582">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="450" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598323256582" />
-    <state width="1383" height="223" key="GridCell.Tab.0.bottom" timestamp="1598325881604">
+    <state width="1383" height="302" key="GridCell.Tab.0.bottom" timestamp="1598422970618">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1383" height="223" key="GridCell.Tab.0.bottom/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598325881604" />
-    <state width="1383" height="223" key="GridCell.Tab.0.center" timestamp="1598325881603">
+    <state width="1383" height="223" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598399336056" />
+    <state width="1383" height="302" key="GridCell.Tab.0.bottom/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598422970618" />
+    <state width="1383" height="302" key="GridCell.Tab.0.center" timestamp="1598422970617">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1383" height="223" key="GridCell.Tab.0.center/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598325881603" />
-    <state width="1383" height="223" key="GridCell.Tab.0.left" timestamp="1598325881602">
+    <state width="1383" height="223" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1598399336055" />
+    <state width="1383" height="302" key="GridCell.Tab.0.center/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598422970617" />
+    <state width="1383" height="302" key="GridCell.Tab.0.left" timestamp="1598422970616">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1383" height="223" key="GridCell.Tab.0.left/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598325881602" />
-    <state width="1383" height="223" key="GridCell.Tab.0.right" timestamp="1598325881604">
+    <state width="1383" height="223" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1598399336055" />
+    <state width="1383" height="302" key="GridCell.Tab.0.left/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598422970616" />
+    <state width="1383" height="302" key="GridCell.Tab.0.right" timestamp="1598422970617">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1383" height="223" key="GridCell.Tab.0.right/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598325881604" />
-    <state width="1383" height="223" key="GridCell.Tab.1.bottom" timestamp="1598325881606">
+    <state width="1383" height="223" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1598399336056" />
+    <state width="1383" height="302" key="GridCell.Tab.0.right/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598422970617" />
+    <state width="1383" height="302" key="GridCell.Tab.1.bottom" timestamp="1598422970610">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1383" height="223" key="GridCell.Tab.1.bottom/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598325881606" />
-    <state width="1383" height="223" key="GridCell.Tab.1.center" timestamp="1598325881605">
+    <state width="1383" height="273" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598399336017" />
+    <state width="1383" height="302" key="GridCell.Tab.1.bottom/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598422970610" />
+    <state width="1383" height="302" key="GridCell.Tab.1.center" timestamp="1598422970609">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1383" height="223" key="GridCell.Tab.1.center/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598325881605" />
-    <state width="1383" height="223" key="GridCell.Tab.1.left" timestamp="1598325881605">
+    <state width="1383" height="273" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1598399336017" />
+    <state width="1383" height="302" key="GridCell.Tab.1.center/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598422970609" />
+    <state width="1383" height="302" key="GridCell.Tab.1.left" timestamp="1598422970609">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1383" height="223" key="GridCell.Tab.1.left/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598325881605" />
-    <state width="1383" height="223" key="GridCell.Tab.1.right" timestamp="1598325881606">
+    <state width="1383" height="273" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1598399336016" />
+    <state width="1383" height="302" key="GridCell.Tab.1.left/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598422970609" />
+    <state width="1383" height="302" key="GridCell.Tab.1.right" timestamp="1598422970610">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1383" height="223" key="GridCell.Tab.1.right/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598325881606" />
-    <state x="214" y="88" key="SettingsEditor" timestamp="1598330668033">
+    <state width="1383" height="273" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1598399336017" />
+    <state width="1383" height="302" key="GridCell.Tab.1.right/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598422970610" />
+    <state x="214" y="88" key="SettingsEditor" timestamp="1598400727904">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="214" y="88" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598330668032" />
-    <state x="214" y="88" key="SettingsEditor/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598327384140" />
+    <state x="214" y="88" key="SettingsEditor/1440.23.960.681/0.23.1440.877@0.23.1440.877" timestamp="1598400727904" />
     <state x="550" y="326" key="VCS.EditChangelistDialog" timestamp="1598325926779">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
